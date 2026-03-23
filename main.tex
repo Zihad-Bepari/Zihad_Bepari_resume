@@ -1,0 +1,129 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[left=0.6in,right=0.6in,top=0.55in,bottom=0.55in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{fontawesome5}
+\usepackage[hidelinks]{hyperref}
+\usepackage{parskip}
+\usepackage{graphicx}
+\usepackage{tabularx}
+
+\renewcommand{\baselinestretch}{0.97}
+
+\definecolor{heading}{RGB}{0,0,0}
+\definecolor{sectionline}{RGB}{25,60,110} 
+
+
+\titleformat{\section}
+{\large\bfseries}
+{}{3em}{}[\color{sectionline}\titlerule]
+
+\titlespacing*{\section}{0pt}{4pt}{5pt}
+
+\setlist[itemize]{noitemsep, topsep=1pt, leftmargin=1.2em}
+
+\begin{document}
+
+%==================== HEADER ====================
+\noindent
+\begin{minipage}[c]{0.7\textwidth}
+  {\Huge \textbf{Zihad Bepari}}\\
+  {\Large Software Engineer}\\[4pt]
+  {\small
+    \faEnvelope\ zihadbepari1139@gmail.com \quad
+    \faPhone\ +8801843104250 \\[2pt]
+    \faMapMarker\ Tongi, Gazipur, Bangladesh \quad
+    \faLinkedin\ \href{https://www.linkedin.com/in/zihad-bepari-313411329/}{LinkedIn} \quad
+    \faGithub\ \href{https://github.com/Zihad-Bepari}{GitHub}
+  }
+\end{minipage}
+\hfill
+\begin{minipage}[c]{0.25\textwidth}
+    \centering
+    \includegraphics[width=3cm]{image.png}
+\end{minipage}
+
+\vspace{10pt}
+
+%==================== PROFILE ====================
+\section*{Profile}
+{\small
+Backend developer with strong expertise in Golang and NestJS, specializing in secure and scalable backend systems.
+Experienced in PostgreSQL and SQL for efficient database design and management, with hands-on experience in authentication,
+authorization, real-time chat applications, payment systems, and two-factor authentication (2FA).
+Passionate about clean, maintainable code and production-ready architectures.
+}
+
+%==================== SKILLS ====================
+\section*{Technical Skills} 
+Languages: \textbf{C, C++, Golang}, Java, Python \\ 
+Frontend: HTML5, CSS3, Bootstrap, \textbf{React} \\ 
+Database: \textbf{MySQL, PostgreSQL} \\ 
+Backend: \textbf{Golang, Node.js, NestJS, TypeScript} \\ 
+Tools: Git, GitHub, Docker \\ 
+Concepts: OOP, Operating Systems, Data Structures \& Algorithms
+
+%==================== EXPERIENCE ====================
+\section*{Professional Experience}
+
+\textbf{Luciety, Dhaka} \hfill \textit{Feb 2025 – Feb 2026}
+\begin{itemize}
+    \item Developed and maintained scalable backend services using \textbf{Golang} and \textbf{NestJS}.
+    \item Designed and implemented secure \textbf{RESTful APIs} integrated with PostgreSQL.
+    \item Built subscription systems and implemented secure payment workflows using Stripe.
+    \item Designed database schemas using Prisma and PostgreSQL.
+    \item Improved backend performance and collaborated effectively with cross-functional teams.
+    \item \textbf{Projects:} 
+        \href{https://github.com/Binary-Mindz/johnb-backend-server}{johnb}, 
+        \href{https://github.com/mahfuz15/chinasheba-backend/branches}{chinasheba-backend}
+\end{itemize}
+
+\textbf{Senior Executive \& Executive, UITS Computer Club (CP Wings)} \hfill \textit{Jan 2024 – Dec 2025}
+\begin{itemize}
+    \item Participated in 75+ competitive programming contests.
+    \item Mentored 10+ junior students in algorithms and problem-solving.
+    \item Conducted CP classes for beginners to improve problem-solving skills.
+\end{itemize}
+
+%==================== PROJECTS ====================
+\section*{Projects}
+
+{\small
+\begin{tabular}{p{0.31\textwidth} p{0.64\textwidth}}
+
+\textbf{Independent Voting System} &
+A secure voting platform using IoT and blockchain with biometric authentication, supporting multiple elections and votes simultaneously.\\
+& \textbf{Tech:} Golang, PostgreSQL, IoT, Blockchain \\
+
+\textbf{StoryHub Backend (NestJS)} &
+A story-sharing platform where users can upload stories, like, and comment, with daily limits and subscription-based premium access.\\
+& \textbf{Tech:} NestJS, PostgreSQL, Prisma, JWT \\
+
+\textbf{Chat Application} &
+A real-time group chat application supporting text, image, video, and voice messages using Socket. IO.\\
+& \textbf{Tech:} NestJS, Socket. IO, PostgreSQL \\
+
+\textbf{Book Selling Platform} &
+An online book-selling platform where users can browse books, add them to a cart, place orders, and track purchases, while admins can easily add, update, and manage book listings.\\
+& \textbf{Tech:} React, Node.js, JWT, MongoDB \\
+
+\end{tabular}
+}
+
+%==================== ACHIEVEMENTS ====================
+\section*{Competitive Programming Achievements}
+\begin{itemize} 
+    \item Skillathon 2025 — \textbf{3rd} (out of 70 teams)
+    \item UITS IHFC 2025 — \textbf{3rd} (out of 90+ teams)
+    \item UIU Intra University Programming Contest 2025 — Rank 92/130+
+    \item UU Intra University Programming Contest 2025 — Rank 86/120+
+\end{itemize}
+
+%==================== EDUCATION ====================
+\section*{Education}
+\textbf{Bachelor of Science in Computer Science} \hfill \textit{Mar 2022 – Dec 2025}\\
+University of Information Technology \& Sciences (UITS)
+
+\end{document}
